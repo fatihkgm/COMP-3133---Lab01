@@ -1,0 +1,22 @@
+{
+  "name": "comp-3133---lab01",
+  "version": "1.0.0",
+  "description": "Read the given CSV file using stream or fs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatihkgm/COMP-3133---Lab01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatihkgm/COMP-3133---Lab01/issues"
+  },
+  "homepage": "https://github.com/fatihkgm/COMP-3133---Lab01#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
