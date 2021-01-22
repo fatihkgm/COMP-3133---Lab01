@@ -11,6 +11,11 @@ async function readFile(filePath) {
 
 readFile('input_countries.csv');
 
+fs.unlink("Canada.txt")
+
+fs.unlink("Canada.txt", (err) => {
+    console.log("File Deleted Successfully...")
+})
 
 async function openFile() {
     try {
