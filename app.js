@@ -1,7 +1,7 @@
 const csv = require('csv-parser');
 const fs = require('fs');
 
-fs.createReadStream('data.csv')
+fs.createReadStream('input_countries.csv')
   .pipe(csv())
   .on('data', (row) => {
     console.log(row);
